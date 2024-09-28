@@ -1,0 +1,20 @@
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-grid {
+    display: grid;
+    gap: 1px;
+    grid-template-rows: repeat(3, minmax(100px, 200px));
+    grid-template-columns: repeat(3, minmax(100px, 200px));
+}
+
+.grid-tile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px;
+    font-size: 48px;
+}
